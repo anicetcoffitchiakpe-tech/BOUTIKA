@@ -1,0 +1,100 @@
+================================================================
+  BOUTIKA — Guide de lancement ultra-simple (pour la soutenance)
+================================================================
+
+  Vous n'avez besoin de connaitre AUCUNE commande.
+  Vous n'avez qu'a DOUBLE-CLIQUER sur des fichiers.
+
+================================================================
+  1. CE QUE VOUS DEVEZ AVOIR INSTALLE SUR VOTRE PC
+================================================================
+
+  [X] XAMPP (pour MySQL + PHP)
+        Telechargement : https://www.apachefriends.org/fr/download.html
+        Installez-le avec les options par defaut.
+
+  [X] Node.js (pour React)
+        Telechargement : https://nodejs.org/fr  (prendre la version LTS, case verte)
+        Installez-le avec les options par defaut, puis redemarrez le PC.
+
+================================================================
+  2. UNE SEULE FOIS : INSTALLER LE PROJET
+================================================================
+
+  1. Ouvrez XAMPP Control Panel
+        (menu Demarrer > tapez "XAMPP")
+  2. Cliquez sur START a cote de "MySQL"
+        (le bouton devient "Stop" et MySQL apparait en vert)
+        Vous n'avez PAS besoin de demarrer Apache.
+  3. Allez dans le dossier boutika (celui ou vous lisez ce fichier)
+  4. Double-cliquez sur :
+        install.bat
+  5. Attendez que ca marque "INSTALLATION TERMINEE"
+        (ca peut prendre 1-2 minutes pour telecharger React)
+  6. Appuyez sur une touche pour fermer.
+
+================================================================
+  3. A CHAQUE FOIS : LANCER LE PROJET
+================================================================
+
+  1. Ouvrez XAMPP Control Panel, demarrez MySQL (Start)
+  2. Double-cliquez sur :
+        start.bat
+  3. Deux fenetres noires s'ouvrent :
+        - Boutika BACKEND (PHP)  → ne pas fermer
+        - Boutika FRONTEND (React) → ne pas fermer
+  4. Votre navigateur s'ouvre TOUT SEUL sur http://localhost:5173
+  5. Le site est en ligne !
+
+================================================================
+  4. COMPTES DE DEMONSTRATION
+================================================================
+
+  Administrateur :
+        Email    : admin@boutika.bj
+        Mot de passe : boutika2026
+
+  Gestionnaire :
+        Email    : gestion@boutika.bj
+        Mot de passe : boutika2026
+
+  L'espace d'administration est a l'adresse :
+        http://localhost:5173/admin
+
+================================================================
+  5. MONTRER LA PREUVE AU JURY : 41 ROUTES TESTEES
+================================================================
+
+  Quand le site est en ligne (start.bat lance) :
+        Double-cliquez sur test-routes.bat
+
+  Une fenetre affiche :
+        ========================================================
+          RÉSULTAT : 41 réussi(s)  •  0 échec(s)
+        ========================================================
+          ✅ Toutes les routes fonctionnent.
+
+  Vous pouvez montrer cette fenetre au jury comme preuve.
+
+================================================================
+  6. ARRETER LE PROJET
+================================================================
+
+  Fermez simplement les deux fenetres noires
+  (BACKEND et FRONTEND). Vous pouvez aussi arreter MySQL dans XAMPP.
+
+================================================================
+  EN CAS DE PROBLEME
+================================================================
+
+  - "PHP introuvable" :
+        Installez XAMPP.
+  - "MySQL n'est pas demarre" :
+        Cliquez sur START dans XAMPP Control Panel a cote de MySQL.
+  - "Node.js introuvable" :
+        Installez Node.js depuis nodejs.org puis redemarrez le PC.
+  - Le navigateur affiche une page blanche ou erreur :
+        Attendez 10 secondes que React finisse de compiler puis
+        appuyez sur F5 dans le navigateur.
+
+================================================================
